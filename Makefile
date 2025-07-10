@@ -4,8 +4,8 @@ setup:
 	apt-get install ruby python ossp-uuid figlet pv toilet nodejs openssl-tool file silversearcher-ag -y
 	apt-get install curl xh ncurses-utils tree clang bc nodejs-lts xz-utils nala ripgrep binutils gum pv -y
 	pip install -r module.txt
-	pip uninstall urlib3 -y
-	pip install urlib3
+	pip uninstall urllib3 -y
+	pip install urllib3
 	pip install httpie
 	pip install phonenumbers
 	@gem install lolcat
