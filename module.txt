@@ -1,0 +1,4 @@
+requests
+blessed
+rich
+rich-cli
