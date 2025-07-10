@@ -12,7 +12,7 @@
 </h1>
 
 <p align="center">
-  <b>Sebuah alat disruptif berbasis Bash & Python (FFI)</b><br>
+  <b>Sebuah alat Sender otp berbasis Bash & Python (FFI)</b><br>
   <i>"Serangan yang bukan untuk merusak, tapi mengganggu."</i>
 </p>
 
