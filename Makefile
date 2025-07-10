@@ -1,8 +1,8 @@
 setup:
 	apt-get update
 	apt-get upgrade
-	apt-get install ruby python ossp-uuid figlet pv toilet nodejs openssl-tool file silversearcher-ag
-	apt-get install curl xh ncurses-utils tree clang bc nodejs-lts xz-utils nala ripgrep binutils gum pv
+	apt-get install ruby python ossp-uuid figlet pv toilet nodejs openssl-tool file silversearcher-ag -y
+	apt-get install curl xh ncurses-utils tree clang bc nodejs-lts xz-utils nala ripgrep binutils gum pv -y
 	pip install -r module.txt
 	pip uninstall urlib3 -y
 	pip install urlib3
