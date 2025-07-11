@@ -2,3 +2,4 @@ requests
 blessed
 rich
 rich-cli
+bs4
