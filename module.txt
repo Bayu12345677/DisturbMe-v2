@@ -3,3 +3,4 @@ blessed
 rich
 rich-cli
 bs4
+faker
