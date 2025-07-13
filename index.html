@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Security Pyramid ENCIENT 8.7.10</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"/>
   <style>
     body {
       background-color: #0e0e0e;
       color: #f2f2f2;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'JetBrains Mono', monospace;
       margin: 0;
       padding: 2rem;
+      line-height: 1.7;
     }
-    h1, h2 {
+    h1 {
       color: #ffd700;
+      font-size: 2.5rem;
+      border-bottom: 1px solid #333;
+      padding-bottom: 0.5rem;
     }
     .section {
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
     }
     .highlight {
       color: #00ffcc;
       font-weight: bold;
     }
     .footer {
-      margin-top: 4rem;
-      font-size: 0.9rem;
+      margin-top: 5rem;
+      font-size: 0.85rem;
       color: #888;
+      border-top: 1px solid #222;
+      padding-top: 1rem;
+      text-align: center;
+    }
+    .quote {
+      font-style: italic;
+      color: #ccc;
+      margin: 1rem 0;
+      padding-left: 1rem;
+      border-left: 3px solid #444;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+    .quote:hover {
+      color: #ffd700;
     }
   </style>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
+  <script defer>
+    document.addEventListener("DOMContentLoaded", function () {
       const phrases = [
         "Gerbang pertama terbuka, tapi hanya jika kamu tahu jalurnya.",
         "Setiap instruksi adalah teka-teki dalam labirin eksekusi.",
@@ -37,36 +57,48 @@
         "Satu langkah salah, dan sistem menutup dirinya.",
         "Labirin ini tidak untuk dibaca, hanya untuk dilewati."
       ];
-      const random = phrases[Math.floor(Math.random() * phrases.length)];
-      document.getElementById("dynamic-line").textContent = random;
+      const target = document.getElementById("dynamic-line");
+
+      function updateQuote() {
+        const random = phrases[Math.floor(Math.random() * phrases.length)];
+        target.textContent = random;
+      }
+
+      updateQuote(); 
+      setInterval(updateQuote, 5000); 
+      target.addEventListener("click", updateQuote); 
     });
   </script>
 </head>
 <body>
   <h1>Pyramid ENCIENT 8.7.10</h1>
+
   <div class="section">
-    <p>Keamanan <span class="highlight">Pyramid ENCIENT</span> adalah sebuah sistem keamanan berlapis yang terinspirasi dari kompleksitas struktur piramida kuno — tempat di mana tidak ada satu jalan lurus, dan setiap lorong memiliki tujuannya sendiri.</p>
-    <p>Ia bukan sekadar alat. Ia adalah sebuah <strong>labirin logika</strong>. Di dalamnya terdapat gerbang, jalur tersembunyi, perangkap, dan ruang tanpa akhir. Untuk bisa sampai ke pusatnya, seseorang harus memahami ritme eksekusi, bukan hanya kode.</p>
+    <p><span class="highlight">Pyramid ENCIENT</span> adalah sistem keamanan eksekusi yang terinspirasi dari kompleksitas struktur piramida kuno — tempat di mana tidak ada satu jalan lurus, dan setiap lorong memiliki tujuannya sendiri.</p>
+    <p>Ia bukan sekadar enkripsi untuk Bash. Ia adalah sebuah <strong>labirin logika</strong>. Di dalamnya terdapat gerbang, jalur tersembunyi, perangkap, dan ruang tanpa akhir. Untuk bisa sampai ke pusatnya, seseorang harus memahami ritme eksekusi, bukan hanya membaca kode.</p>
   </div>
 
   <div class="section">
-    <p>Pyramid ENCIENT tidak mengizinkan dirinya dibaca. Ia menolak dieksekusi oleh tangan yang salah. Ia menyamarkan jalur-jalurnya, menanam jebakan, dan bila perlu — menghancurkan dirinya sendiri untuk menjaga rahasia yang dijaganya.</p>
+    <p><span class="highlight">Pyramid ENCIENT</span> tidak mengizinkan dirinya dibaca. Ia menolak dieksekusi oleh tangan yang salah. Ia menyamarkan jalur-jalurnya, menanam jebakan, dan bila perlu — menghancurkan dirinya sendiri saat seseorang sudah merasa yakin berhasil menyelesaikannya untuk menjaga rahasia yang dijaganya.</p>
     <p>Jika sebuah skrip menyebutkan bahwa ia menggunakan Pyramid ENCIENT, maka pahamilah: skrip itu tidak bisa dibaca, hanya bisa dijalani oleh eksekusi yang sah.</p>
   </div>
 
   <div class="section">
-    <p id="dynamic-line"></p>
+    <p class="quote" id="dynamic-line">...</p>
   </div>
 
   <div class="section">
-    <p><strong>Versi:</strong><br>
-    Pyramid Obf: v8.7<br>
-    Pyramid Network Encryption: v10<br>
-    Security Identity: <span class="highlight">Pyramid ENCIENT 8.7.10</span></p>
+    <p><strong>Versi:</strong><br/>
+      Pyramid Obf: v8.7<br/>
+      Pyramid Network Encryption: v10<br/>
+      Security Identity: <span class="highlight">Pyramid ENCIENT 8.7.10</span>
+    </p>
   </div>
 
   <div class="footer">
-    &copy; 2024 Bayu Rizky A.M / Pejuang Kentang. All rights reserved.
+    &copy; 2024 Bayu Rizky A.M / Pejuang Kentang. All rights reserved.<br/>
+    Halaman ini dibuat sebagai dokumentasi resmi sistem keamanan.<br/>
+    Dirancang untuk Github Pages Pada <span class="highlight">(Aplikasi CLI)</span>.
   </div>
 </body>
 </html>
