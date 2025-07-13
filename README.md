@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://github.com/Bayu12345677/DisturbMe-v2/blob/master/properti/LOGO1.png" width=600><br>
-  <img src="https://img.shields.io/static/v1?label=Bash+Obfuscating&color=green&message=+&logo=GNU+Bash&logoColor=white&style=for-the-badge">
+  <img src="https://img.shields.io/static/v1?label=Pyramid+Encient&color=green&message=Security&logo=nano&logoColor=white&style=for-the-badge">
   <img src="https://img.shields.io/static/v1?label=Author&color=green&message=Polygon&logo=Acclaim&logoColor=white&style=for-the-badge"><br>
   <img src="https://img.shields.io/github/stars/Bayu12345677/DisturbMe-v2?logo=github&style=for-the-badge">
   <img src="https://img.shields.io/static/v1?label=Version&color=green&message=1.0&logo=Clockify&logoColor=white&style=for-the-badge"><br><br>
@@ -77,6 +77,6 @@ $ make Run
   <a href="#"><img src="https://img.shields.io/badge/Base-Bash-blue?logo=gnubash&logoColor=white&style=for-the-badge" alt="Built with Bash"/></a>
   <a href="#"><img src="https://img.shields.io/badge/FFI-Python-yellow?logo=python&logoColor=white&style=for-the-badge" alt="I/O & TUI"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Engine-bashID-orange?logo=matrix&logoColor=white&style=for-the-badge" alt="Powered by Bash ID framework"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Purpose-OTP%20Spammer-critical?logo=nano&style=for-the-badge&color=red" alt="Spam OTP"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Purpose-OTP%20Spammer-critical?logo=nixos&style=for-the-badge&color=red" alt="Spam OTP"/></a>
 </p>
 
