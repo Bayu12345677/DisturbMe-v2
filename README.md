@@ -1,11 +1,11 @@
 <p align="center">
   <img src="https://github.com/Bayu12345677/DisturbMe-v2/blob/master/properti/LOGO1.png" width=600><br>
-  <img src="https://img.shields.io/static/v1?label=Pyramid+Encient&color=green&message=Security&logo=nano&logoColor=white&style=for-the-badge">
-  <img src="https://img.shields.io/static/v1?label=Author&color=green&message=Polygon&logo=Acclaim&logoColor=white&style=for-the-badge"><br>
-  <img src="https://img.shields.io/github/stars/Bayu12345677/DisturbMe-v2?logo=github&style=for-the-badge">
+  <a href="https://bayu12345677.github.io/DisturbMe-v2/"><img src="https://img.shields.io/static/v1?label=Pyramid+Encient&color=green&message=Security&logo=nano&logoColor=white&style=for-the-badge"></a>
+  <a href="https://github.com/Bayu12345677"><img src="https://img.shields.io/static/v1?label=Author&color=green&message=Polygon&logo=Acclaim&logoColor=white&style=for-the-badge"></a><br>
+  <a href="https://github.com/Bayu12345677/DisturbMe-v2/"><img src="https://img.shields.io/github/stars/Bayu12345677/DisturbMe-v2?logo=github&style=for-the-badge">
   <img src="https://img.shields.io/static/v1?label=Version&color=green&message=1.0&logo=Clockify&logoColor=white&style=for-the-badge"><br><br>
   <img src="https://img.shields.io/static/v1?label=Termux&color=green&message=+&logo=Iterm2&logoColor=white&style=flat">
-  <img src="https://img.shields.io/github/forks/Bayu12345677/DisturbMe-v2?logo=github&style=flat">
+  <img src="https://img.shields.io/github/forks/Bayu12345677/DisturbMe-v2?logo=github&style=flat"></a>
 </p><br>
 <h1 align="center" style="font-family:monospace;">
   🩻 DisturbMe v2 🩻
