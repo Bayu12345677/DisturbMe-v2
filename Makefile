@@ -5,6 +5,7 @@ setup:
 	apt-get install curl xh ncurses-utils tree jq clang bc nodejs-lts xz-utils nala ripgrep binutils gum pv -y
 	pip install -r module.txt
 	pip uninstall urllib3 -y
+	pip uninstall psutil -y
 	pip install urllib3
 	pip install httpie
 	pip install phonenumbers
